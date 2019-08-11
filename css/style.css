@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  color: #fff; }
+
+.navbar {
+  background-color: #333; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 950px; }
+
+.navbar-nav > li {
+  margin-right: 30px; }
+
+#home-section {
+  background: url("../img/Venturesity-Group.png");
+  min-height: 950px;
+  background-size: cover; }
+
+.home-inner {
+  padding-top: 350px; }
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    height: 100px; }
+  #about-pic {
+    height: 250px; }
+  #hackoverflow {
+    height: 120px;
+    padding-bottom: 40px; }
+  #hello-world {
+    height: 120px;
+    padding-top: 30px; }
+  #about-head-section {
+    size: 2px; }
+  #socialmedia {
+    height: 320px; } }
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#about-head-section {
+  color: black;
+  text-align: justify; }
+
+#events-head-section {
+  background: url("../img/Events-Gradient.jpg");
+  color: white;
+  text-align: justify;
+  background-repeat: no-repeat;
+  background: cover; }
+
+#team-head-section {
+  color: black; }
+
+#contact-head-section {
+  background: url("../img/contact.jpg");
+  color: white;
+  text-align: justify;
+  background-repeat: no-repeat; }
+
+.content {
+  padding-bottom: 50px; }
+
+.spacing {
+  padding-bottom: 30px; }
+
+i {
+  padding-left: 15px; }
+
+.centre {
+  align-items: center; }
