@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  color: #fff; }
+  color: #fff;
+  overflow-x: hidden }
 
 .navbar {
   background-color: #333; }
@@ -19,9 +20,10 @@ body {
   margin-right: 30px; }
 
 #home-section {
-  background: url("../img/Venturesity-Group.png");
+  background: url("../img/group.jpg");
   min-height: 950px;
-  background-size: cover; }
+  background-size: cover;
+ }
 
 .home-inner {
   padding-top: 350px; }
